@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Reddit Case Study- UX/UI Redesign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="page-container">
+    <div class="container"> 
+        <a href="#mainContent" class="skip">Skip to Main Content</a>
+    </div>
+    <div id="content-wrap">
+        <header>
+        </header>
+        <main id="mainContent">
+            <h1>Reddit Case Study - <br> UI/UX Redesign</h1>
+            <div class="parent">
+            <img class="bioImage" src="assets/JoelHeadshot_Square1080.jpg" alt="headshot of Joel Betancourt smiling">
+            <div class="child">
+            <p>Joel Betancourt</p>
+            <div class="break"></div>
+            <p class="date">May 7, 2021</p>
+            </div>
+            </div>
+            <img class="heroimage" src="assets/hero_image.png" alt="Image of Reddit desktop and mobile redesign" width="100%">
+            <p class="subtext">Mockup of Reddit Redesign</p>
+        <article>
+        <section>
+            <h2>What is Reddit?</h2>
+            <p>Reddit is a social news platform that allows its registered users the ability to share and rate content, participate in discussions, and as of recently, offer live streaming. Its popularity stems from its vast amount of discussion forums called “subreddits”. These subreddits ultimately cover most topics you can think of, allowing users significant freedom in customizing their news feed to their own liking. Its vast amount of information attracts a heavy amount of traffic with nearly <a href="https://www.statista.com/statistics/443332/reddit-monthly-visitors/#:~:text=Total%20global%20visitor%20traffic%20to%20Reddit.com%202020&text=Reddit%20is%20a%20web%20traffic,the%20most%2Dvisited%20websites%20online.">1.74 billion visits alone in December of 2020</a>.</p>
+        </section>
+        <section>
+        <h2>Purpose of This Redesign</h2>
+        <p>As a student of Human-Computer Interaction (HCI) with a growing interest in UX/UI design, I wanted to try my hand at a simple redesign. Since COVID-19, I’ve spent a lot of my time passing the days scrolling through Reddit. It’s a platform I have come to enjoy, but it hasn’t been without its flaws.  It is worth noting that Reddit has undergone a relatively recent redesign which could be described as a complete overhaul, and while the new design works wonders, I firmly believe that any design can always be improved.  </p>
+        <img src="assets/reddit_before_update.png" alt="Screenshot of Reddit before recent update" width="1200">
+        <p class="subtext">Reddit Before Update</p>
+        <img src="assets/reddit_after_update.png" alt="Screenshot of Reddit after update" width=1200>
+        <p class="subtext">Reddit After Update</p>
+        <p>So, this is my own project to obtain a deeper understanding of the UX/UI process. It should be noted that this case study will not focus on an entire overhaul, only improvements where they may be beneficial while keeping in mind the practice of accessibility standards. I also want to stress that I am not affiliated with Reddit by any means, this is simply a way to challenge myself. </p>
+        </section>
+        <section>
+            <h2>Goals for The Redesign</h2>
+            <h3>Main Goals</h3>
+            <ul>
+                <li>Apply principles learned throughout my study of Human-Computer Interaction to provide an improved user experience.</li>
+                <li>Propose various redesigns that better serve the user journey/productivity.</li>
+                <li>Provide simple solutions for aspects that do not meet accessibility standards.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Getting to Know The Users</h2>
+            <h3>Demographics</h3>
+            <p>According to a 2021 analysis from <a href="https://foundationinc.co/lab/reddit-statistics/">foundation inc.</a>, Reddit receives over 330 active users each month. Of its users based in the U.S., a majority 42% are between the ages of 18 and 24. Additionally, 15% of these users are male, while 8% are female. As far as how users access Reddit, 56% of users prefer the desktop version, while 44% prefer to use their mobile device. </p>
+            <img src="assets/Piechart.png" alt="Piechart showing percentage of mobile users versus desktop users" width= 400>
+            <p>With the percentages being so close, I visited both the mobile and desktop versions for this case study. This actually led me to find, which I’m sure you’ll see later, that many of the pain points found in one version of the platform had a simple solution in the other.</p>
+        </section>
+        <section>
+            <h2>User Interviews</h2>
+            <p>For user interviews, I relied on an audience that would closely resemble the average user demographics stated above. In total, 5 users were interviewed. Of the group, 3 were males between the ages of 22 and 25, while the other 2 were females between the ages of 21 and 22.</p>
+            <br>
+            <ul>
+                <li>User 1 (M, 25) - Frequent mobile user</li>
+                <li>User 2 (M, 23) - Semi-frequent desktop user</li>
+                <li>User 3 (F, 21) - Frequent desktop user</li>
+                <li>User 4 (M, 22) - Frequent mobile user</li>
+                <li>User 5 (F, 22) - Non-frequent mobile user</li>
+            </ul>
+            <p>The purpose of the interviews was to gain a better understanding of user’s needs and wants from a tool such as Reddit. The questions were set up to identify their purpose for interacting with the platform and what features they use the most. </p>
+            <br>
+            <h3>Key Insights</h3>
+            <ul>
+                <li>Users all expressed an interest in using the platform primarily for entertainment purposes while also staying up to date with news.</li>
+                <li>The most used features amongst participants were the ability to share posts with friends, using the rating system (liking/disliking), and the option to save posts in order to view them later.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>User Testing</h2>
+            <p>From here I wanted to identify pain points in Reddit’s design through usability tests. Users were given basic navigational tasks on both the mobile and desktop versions before being asked to comment on their experience. These included interacting with posts, visiting a user profile, and joining a subreddit, ontop of interacting with the platform as they might usually do.</p>
+        </section>
+        <section>
+            <h2>Pain Points</h2>
+            <p>Once I finished the usability testing, I was able to identify reoccurring pain points users experienced. As a reminder, I focused on both the mobile and desktop versions.</p>
+            <br>
+            <h3>Pain Point 1 - Inconsistencies (Desktop & Mobile)</h3>
+            <p>While it is expected that the desktop version and mobile version are designed differently, some inconsistencies between the two caused the user to struggle with tasks they were otherwise familiar with on one version.</p>
+            <blockquote>“It’s hard for me to jump between the two, my eyes keep mistakenly taking me to where I assumed the button would be.”</blockquote>
+            <br>
+            <h3>Pain Point 2 - Overwhelming UI (Desktop)</h3>
+            <p>Most participants reported feeling overwhelmed at one point while navigating the desktop version. This was be attributed to factors such as long blocks of text and multiple contrast issues. Each participant reported that text, in general, was too small and difficult to read. </p>
+            <blockquote>“Your eyes don’t know where to look, there so many things going on. I feel like I’d get a headache trying to read this, it just feels so overpopulated.”</blockquote>
+            <br>
+            <h3>Pain Point 3 - Misclicks (Mobile)</h3>
+            <p>By far the most reported frustration during testing was users misclicking links. For example, when tasked with visiting either the subreddit from a post or the profile of the Redditor that created it, participants required multiple attempts before being able to successfully do so. This, once again, is a result of poor sizing and spacing issues.</p>
+            <blockquote>“How was this designed for literally anyone with thumbs?”</blockquote>
+            <br>
+            <h3>Pain Point 4 - Missing Features (Mobile & Desktop)</h3>
+            <p>4/5 participants claimed that they felt they could only enjoy either one version of the platform or the other. This is due to some of their favorite features either only existing on mobile or desktop. </p>
+            <blockquote>“It’s a shame, but this is why I don’t really switch between the two, I have to give up one feature for another.”</blockquote>
+            <br>
+            <h3>Paint Point 5 - “Mildly” Annoying Problems (Mobile & Desktop)</h3>
+            <p>Some users pointed out that small problems exist that when occur often, completely ruin their experience. One participant reported that while on a mobile device and after having scrolled through their feed for some time, accidentally touching the top of their screen would send them back to the top with no option to return to where they left. 
+            </p>
+            <blockquote>“It’s the little inconveniences, eventually they drive me up a wall.”</blockquote>
+        </section>
+        <section>
+            <h2>Affinity Mapping</h2>
+            <p>I wanted to organize data in a way to better visualize the paint points users experienced and brainstorm ideas on possible solutions. I placed a lot of emphasis on creating solutions that addressed the apparent disconnect between preferability between the mobile or desktop version.</p>
+            <img src="assets/affinitymap.jpg" alt="image of affinity map that shows a graph of issues and potential solutions" width=1400>
+            <p class="subtext">Brainstorming Using Affinity Mapping- Red for Pain Points, Blue for Possible Solutions</p>
+        </section>
+        <section>
+            <h2>Sketches</h2>
+            <p>Before jumping into any redesigns, I made it a point to sketch out some low-fidelity wireframes. Reddit’s popularity puts it on the same scoreboard as Facebook and Twitter, its main competitors in some aspects. Spending time analyzing how Facebook and Twitter organize their content allowed me to brainstorm ideas on how to best go about this redesign while putting it on paper.   
+            </p>
+            <img src="assets/sketches1.png" alt="image of sketchbook ontop of desk" width=900>
+            <img src="assets/sketches2.png" alt="image of sketchbook ontop of desk" width="900">
+        </section>
+        <section>
+            <h2>Finally, The Redesign</h2>
+            <h3>1. First and Foremost, The Layout (Desktop)</h3>
+            <img src="assets/desktop_old_layout.png" alt="Screenshot of Reddit before redesign" width="1200">
+            <p class="subtext">Reddit's Current Desktop Design</p>
+            <img src="assets/layout__desktop_redesign.png" alt="Screenshot of Reddit's Desktop Redesigned" width="1200">
+            <p class="subtext">Reddit's Desktop Layout Redesigned</p>
+            <h3>Proposed Solution</h3>
+            <p><strong>Reduce filter options-</strong> While reducing clicks can provide a better user experience, it shouldn’t come at the cost of a cluttered design. Instead of providing users with a multitude of filter options, I provided them with the most commonly used ones based on feedback. In this case, less is more.</p>
+            <br>
+            <p><strong>Remove side content-</strong> User-testing confirmed to me that there wasn’t any appreciation for the right side content. With most of the negative feedback revolving around Reddit’s painfully small text, removing the side content and relocating that information to the footer allowed for a significant boost in space. From here I could size up the content, including font and buttons. This also permitted me to really emphasize the headlines which should make for an easier time skimming through posts. It’s worth noting that side content was information that could be found on other parts of the site, no functionality is lost by removing it.</p>
+            <br>
+            <p><strong>Familiarity-</strong> Designing for familiarity is one of my biggest priorities here. Users should be able to seamlessly switch between the desktop and mobile versions of Reddit without feeling like they are on a new platform altogether. I relocated buttons within each post to better group similar functions together and promote simplicity.</p>
+            <br>
+            <p><strong>Accessibility-</strong> One accessibility concern was that users were not able to easily distinguish links from regular text. By changing the styling for post information, users should have an easier time with legibility and separating information, such as the creator of each post and how long ago it was posted. Users should also now be able to recognize the creator’s username as a clickable link.</p>
+        </section>
+        <section>
+            <h3>2. Navigation Menu Revamp (Desktop)</h3>
+            <img src="assets/old_navigation.png" alt="screenshot of old desktop navigation" width="1200">
+            <p class="subtext">Old Desktop Navigation</p>
+            <img src="assets/new_navigation.png" alt="screenshot of redesigned desktop navigation" width="1200">
+            <p class="subtext">New Desktop Navigation</p>
+            <h3>Proposed Solution</h3>
+            <p><strong>User-Centered Design-</strong> Reddit’s current navigation did not convince me that it prioritized user’s needs and interests. Extra steps were required for switching between the “popular” and “home” filters. These are filters that users constantly switched back and forth between when interacting with Reddit during testing. Some features even had two dedicated locations on the menu, which seemed unnecessary. This redesign instead prioritized the functionality users preferred the most. 
+            </p>
+            <br>
+            <p><strong>Addressing The Missing Features-</strong> One of the biggest disconnects for mobile users switching to desktop was the missing “News” filter. 5/5 users indicated that they used Reddit to stay up to date with current events along with entertainment purposes. While this particular redesign may seem minor, adding this feature to the desktop is arguably one of the most crucial ways to allow for a more fluid experience. </p>
+        </section>
+        <section>
+            <h2>Improving The Mobile Experience</h2>
+            <img src="assets/mobile_layout_redesigned.png" alt="mobile mockup of current home layout next to redesigned layout" width="1200">
+            <h3>Same Problem, Same Solution</h3>
+            <p>Reddit’s mobile design also suffers from the use of small text and indistinguishable links. My proposed solution is to bring it up to date with the desktop redesign, once again placing an emphasis on familiarity and information users look for the most–headlines and subreddits. The bigger text also reduces the chance of misclicking the wrong element. 
+            </p>
+            <img id="border" src="assets/live_feature.gif" alt="screen recording of new feature in use" width="250">
+            <h3>"Return to Last Post" Feature</h3>
+            <p>Some users were quick to complain about accidentally losing their spot after spending some time scrolling through social media– “one slip of your finger and you’re forced to scroll all the way back to where you were if you even have the patience for that”. Adding an optional feature that would take a user back to the last post they viewed can translate to a much more positive user experience.
+            </p>
+            <img src="assets/Comment_section_redesign.png" alt="mobile mockup of current comment section next to redesigned layout" width="1200">
+            <h3>The Freedom to Format!</h3>
+            <p>Desktop users are able to appreciate a wide variety of formatting options when commenting on a post (bold, italics, linking, etc.). It was surprising to learn that mobile did not carry over at least a few of those options, something users were quick to point out. Instead, users have to resort to using inline code for something as simple as bolding text, none of which knew how to do so. My proposed solution is to simply offer the same functionality on mobile that already exists on desktop.</p>      
+        </section>
+        <section>
+            <h2>Self-Reflection</h2>
+            <h3>Biggest Challenges</h3>
+            <p>I found most of my difficulties during the initial research phase. Finding accurate, detailed, and up-to-date information from a credible source was not readily available for user demographics. Additionally, most of Reddit’s mobile and desktop reviews revolved around content-related issues instead of the user interface, making it hard to find how users felt about its design.</p>
+            <h3>What I learned</h3>
+            <ul>
+                <li>There are many small details to consider when creating a user-centered design. I learned not to overlook even the smallest changes, as these can greatly impact the overall experience.</li>
+                <li>User testing also taught me how to better conduct interviews, avoiding bias, and obtaining a deeper understanding of what users want.</li>
+            </ul>
+            <p>All in all, this challenge was a great learning experience for getting to know what this process entails. I enjoyed stepping into the various roles and responsibilities, learning more from each one. There is undoubtedly so much more for me to learn and I look forward to doing more of these in the future. Thank you for reading!</p>
+        </section>
+    </article>
+</div>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2021 Joel Betancourt</p>
+    </footer>
+    </div>
+</body>
+
+</html>
